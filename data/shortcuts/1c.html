@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #1e1e2e;
+            color: #cdd6f4;
+            margin: 0;
+            padding: 15px;
+        }
+        h2 {
+            color: #89b4fa;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #45475a;
+            padding-bottom: 5px;
+        }
+        .shortcut {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 10px;
+            margin: 5px 0;
+            background-color: #313244;
+            border-radius: 6px;
+            align-items: center;
+        }
+        .shortcut:hover {
+            background-color: #45475a;
+        }
+        .keys {
+            font-family: 'Consolas', 'Courier New', monospace;
+            background-color: #585b70;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #cdd6f4;
+            white-space: nowrap;
+        }
+        .description {
+            flex: 1;
+            margin-right: 15px;
+            color: #bac2de;
+        }
+    </style>
+</head>
+<body>
+    <h2>Редактирование</h2>
+    <div class="shortcut">
+        <span class="description">Автодополнение (Контекстная подсказка)</span>
+        <span class="keys">Ctrl+Пробел</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Шаблоны кода</span>
+        <span class="keys">Ctrl+Shift+T</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Комментировать строку</span>
+        <span class="keys">Ctrl+/</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Комментировать блок</span>
+        <span class="keys">Ctrl+Shift+/</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Удалить строку</span>
+        <span class="keys">Ctrl+L</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Дублировать строку</span>
+        <span class="keys">Ctrl+D</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Переместить строку вверх</span>
+        <span class="keys">Alt+↑</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Переместить строку вниз</span>
+        <span class="keys">Alt+↓</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Форматировать модуль</span>
+        <span class="keys">Alt+Shift+F</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Вставить символ переноса строки |</span>
+        <span class="keys">Ctrl+Shift+Enter</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Добавить / убрать закладку</span>
+        <span class="keys">Alt+F2</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Следующая закладка</span>
+        <span class="keys">F2</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Предыдущая закладка</span>
+        <span class="keys">Shift+F2</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Свернуть/развернуть область</span>
+        <span class="keys">Ctrl+Num+/−</span>
+    </div>
+
+    <h2>Поиск и навигация</h2>
+    <div class="shortcut">
+        <span class="description">Найти</span>
+        <span class="keys">Ctrl+F</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Найти и заменить</span>
+        <span class="keys">Ctrl+H</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Глобальный поиск</span>
+        <span class="keys">Ctrl+Shift+F</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Перейти к строке</span>
+        <span class="keys">Ctrl+G</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Перейти к определению процедуры/функции</span>
+        <span class="keys">Ctrl+F12</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Перейти к определению переменной</span>
+        <span class="keys">F12</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Список процедур и функций модуля</span>
+        <span class="keys">Ctrl+Alt+P</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Описание синтаксиса (Синтакс-помощник)</span>
+        <span class="keys">Ctrl+F1</span>
+    </div>
+
+    <h2>Отладка</h2>
+    <div class="shortcut">
+        <span class="description">Начать отладку</span>
+        <span class="keys">F5</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Остановить отладку</span>
+        <span class="keys">Shift+F5</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Перезапустить</span>
+        <span class="keys">Ctrl+Shift+F5</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Точка останова (вкл/выкл)</span>
+        <span class="keys">F9</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Точка останова с условием</span>
+        <span class="keys">Shift+F9</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Список точек останова</span>
+        <span class="keys">Alt+F9</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Отключить все точки останова</span>
+        <span class="keys">Ctrl+Shift+F9</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Шагнуть в (войти в процедуру)</span>
+        <span class="keys">F11</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Шагнуть через (следующая строка)</span>
+        <span class="keys">F10</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Шагнуть из (выйти из процедуры)</span>
+        <span class="keys">Shift+F11</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Идти до курсора</span>
+        <span class="keys">Shift+F10</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Вычислить выражение</span>
+        <span class="keys">Shift+F9</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Табло (окно наблюдения)</span>
+        <span class="keys">Ctrl+Alt+W</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Стек вызовов</span>
+        <span class="keys">Ctrl+Alt+C</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Установить текущую строку выполнения</span>
+        <span class="keys">Ctrl+Shift+F10</span>
+    </div>
+
+    <h2>Конфигуратор — общее</h2>
+    <div class="shortcut">
+        <span class="description">Открыть конфигурацию</span>
+        <span class="keys">Ctrl+Shift+O</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Обновить конфигурацию БД</span>
+        <span class="keys">F7</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Проверка конфигурации</span>
+        <span class="keys">Ctrl+F7</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Сохранить</span>
+        <span class="keys">Ctrl+S</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Закрыть вкладку</span>
+        <span class="keys">Ctrl+F4</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Свойства объекта</span>
+        <span class="keys">Alt+Enter</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Открыть модуль объекта</span>
+        <span class="keys">Ctrl+Alt+M</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Открыть модуль формы</span>
+        <span class="keys">Ctrl+Alt+F</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Сравнить конфигурации</span>
+        <span class="keys">Ctrl+Shift+K</span>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #1e1e2e;
+            color: #cdd6f4;
+            margin: 0;
+            padding: 15px;
+        }
+        h2 {
+            color: #89b4fa;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #45475a;
+            padding-bottom: 5px;
+        }
+        .shortcut {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 10px;
+            margin: 5px 0;
+            background-color: #313244;
+            border-radius: 6px;
+            align-items: center;
+        }
+        .shortcut:hover {
+            background-color: #45475a;
+        }
+        .keys {
+            font-family: 'Consolas', 'Courier New', monospace;
+            background-color: #585b70;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #cdd6f4;
+            white-space: nowrap;
+        }
+        .description {
+            flex: 1;
+            margin-right: 15px;
+            color: #bac2de;
+        }
+    </style>
+</head>
+<body>
+    <h2>Редактирование</h2>
+    <div class="shortcut">
+        <span class="description">Дублировать строку</span>
+        <span class="keys">Ctrl+D</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Удалить строку</span>
+        <span class="keys">Ctrl+Y</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Переместить строку вверх/вниз</span>
+        <span class="keys">Ctrl+Shift+↑/↓</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Комментировать строку</span>
+        <span class="keys">Ctrl+/</span>
+    </div>
+
+    <h2>Поиск и навигация</h2>
+    <div class="shortcut">
+        <span class="description">Поиск везде</span>
+        <span class="keys">Double Shift</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Найти класс</span>
+        <span class="keys">Ctrl+N</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Найти файл</span>
+        <span class="keys">Ctrl+Shift+N</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Перейти к объявлению</span>
+        <span class="keys">Ctrl+B</span>
+    </div>
+
+    <h2>Рефакторинг</h2>
+    <div class="shortcut">
+        <span class="description">Переименовать</span>
+        <span class="keys">Shift+F6</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Меню рефакторинга</span>
+        <span class="keys">Ctrl+Alt+Shift+T</span>
+    </div>
+
+    <h2>Запуск</h2>
+    <div class="shortcut">
+        <span class="description">Запустить</span>
+        <span class="keys">Shift+F10</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Отладка</span>
+        <span class="keys">Shift+F9</span>
+    </div>
+</body>
+</html>

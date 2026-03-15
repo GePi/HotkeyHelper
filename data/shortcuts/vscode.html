@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #1e1e2e;
+            color: #cdd6f4;
+            margin: 0;
+            padding: 15px;
+        }
+        h2 {
+            color: #89b4fa;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #45475a;
+            padding-bottom: 5px;
+        }
+        .shortcut {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 10px;
+            margin: 5px 0;
+            background-color: #313244;
+            border-radius: 6px;
+            align-items: center;
+        }
+        .shortcut:hover {
+            background-color: #45475a;
+        }
+        .keys {
+            font-family: 'Consolas', 'Courier New', monospace;
+            background-color: #585b70;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #cdd6f4;
+            white-space: nowrap;
+        }
+        .description {
+            flex: 1;
+            margin-right: 15px;
+            color: #bac2de;
+        }
+    </style>
+</head>
+<body>
+    <h2>Редактирование</h2>
+    <div class="shortcut">
+        <span class="description">Командная палитра</span>
+        <span class="keys">Ctrl+Shift+P</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Быстрое открытие файла</span>
+        <span class="keys">Ctrl+P</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Закрыть редактор</span>
+        <span class="keys">Ctrl+W</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Дублировать строку вниз</span>
+        <span class="keys">Shift+Alt+↓</span>
+    </div>
+
+    <h2>Поиск</h2>
+    <div class="shortcut">
+        <span class="description">Найти</span>
+        <span class="keys">Ctrl+F</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Найти в файлах</span>
+        <span class="keys">Ctrl+Shift+F</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Заменить</span>
+        <span class="keys">Ctrl+H</span>
+    </div>
+
+    <h2>Навигация</h2>
+    <div class="shortcut">
+        <span class="description">Перейти к строке</span>
+        <span class="keys">Ctrl+G</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Перейти к символу</span>
+        <span class="keys">Ctrl+Shift+O</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Переключить вкладку</span>
+        <span class="keys">Ctrl+Tab</span>
+    </div>
+
+    <h2>Интерфейс</h2>
+    <div class="shortcut">
+        <span class="description">Показать/скрыть терминал</span>
+        <span class="keys">Ctrl+`</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Показать Explorer</span>
+        <span class="keys">Ctrl+Shift+E</span>
+    </div>
+    <div class="shortcut">
+        <span class="description">Показать поиск</span>
+        <span class="keys">Ctrl+Shift+F</span>
+    </div>
+</body>
+</html>

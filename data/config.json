@@ -1,0 +1,29 @@
+{
+  "apps": [
+    {
+      "processName": "chrome.exe",
+      "windowTitle": null,
+      "htmlFile": "chrome.html"
+    },
+    {
+      "processName": "idea64.exe",
+      "windowTitle": null,
+      "htmlFile": "idea.html"
+    },
+    {
+      "processName": "Code.exe",
+      "windowTitle": null,
+      "htmlFile": "vscode.html"
+    },
+    {
+      "processName": "notepad.exe",
+      "windowTitle": "test",
+      "htmlFile": "notepad-test.html"
+    },
+    {
+      "processName": "1cv8.exe",
+      "windowTitle": null,
+      "htmlFile": "1c.html"
+    }
+  ]
+}
